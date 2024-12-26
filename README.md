@@ -31,12 +31,10 @@ To use this repository:
 1. Clone the repository to your local machine:
    ```bash
    git clone https://github.com/Sandy-Nandu/TechTides-Sandy-Nandu.git
-### Install the required libraries
+
 pip install pandas numpy scikit-learn matplotlib
-### Explore the dataset
 import pandas as pd
 df = pd.read_csv('ai4i2020.csv')
-### Run the data analysis script to explore the dataset and prepare it for modeling
 python data_analysis.py
 ### Project Purpose
 This project aims to:
